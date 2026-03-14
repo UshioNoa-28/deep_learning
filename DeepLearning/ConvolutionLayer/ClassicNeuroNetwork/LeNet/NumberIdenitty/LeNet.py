@@ -75,6 +75,22 @@ for epoch in range(epochs):
         print(f"train accuracy {train_accuracy} test accuracy {test_accuracy}")
 draw_image(range(epochs), train_losses, test_losses)
 torch.save(net.state_dict(), "LeNet")
+# epoch 6 :
+# train loss 0.20902491560641756 test_loss 0.26086589228361845
+# train accuracy 0.9363198138297872 test accuracy 0.91689453125
+# epoch 7 :
+# train loss 0.19273123500194955 test_loss 0.16515057228971272
+# train accuracy 0.9424589982269503 test accuracy 0.9525390625
+# epoch 8 :
+# train loss 0.18443635166325467 test_loss 0.1754772346932441
+# train accuracy 0.9464095744680852 test accuracy 0.945703125
+# epoch 9 :
+# train loss 0.16096508534664802 test_loss 0.13278201611246915
+# train accuracy 0.9519281914893617 test accuracy 0.96025390625
+# epoch 10 :
+# train loss 0.15712188314250175 test_loss 0.14920964117627591
+# train accuracy 0.9529310726950355 test accuracy 0.95810546875
+# 能拿到还不错的结果
 
 
 

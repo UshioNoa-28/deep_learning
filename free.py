@@ -1,8 +1,4 @@
-import gradio as gr
+import torch
 
-def hello(x):
-    return x
-
-demo = gr.Interface(fn=hello, inputs="text", outputs="text")
-
-demo.launch()
+a=torch.tensor([1,2,3])
+a.to("cuda")
