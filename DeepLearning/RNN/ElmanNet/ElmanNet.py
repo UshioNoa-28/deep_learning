@@ -1,4 +1,4 @@
-# 给出在pytorch下 如何快速构建 LSTM RNN BiRNN
+# 给出在pytorch下 如何快速构建 LSTM RNN
 
 import torch
 import torch.utils.data as data

@@ -1,0 +1,5 @@
+clip.py tokenizer.py openai.py
+这三个文件主要解决从原来的CLIP模型读取参数并赋值给自己新定义的CLIP模型
+主要是parameter的load_state_dict是根据路径解析的
+也就是说只要保证自己创建的模型和原来的CLIP模型结构一致 那么就可以直接读取参数并赋值给自己新定义的CLIP模型
+model.py 差不多 也是建立标准的CLIP模型 论文的逻辑主要集中在Adapter.py文件中
